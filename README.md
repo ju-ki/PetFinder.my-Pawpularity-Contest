@@ -68,6 +68,34 @@ PetFinder.my は、マレーシアを代表する動物福祉プラットフォ�
 
 ### 20211111
 
-- petfinder_baseline(tf_efficientnet) cv:19.3128 LB:19.11319
+- petfinder_baseline(tf_efficientNet) cv:19.3128 LB:19.11319
 - exp1 swin_transformer
 - どうやら画像に重複があるらしい(またはかなり似ている) -> 除去後のモデルもありかも
+- 脳死でモデルを変更した(large_model や Vit) -> 20 位で停滞した
+- 単純に augmentation をやっていなかった
+
+### 20211112
+
+- efficientNet で augmentation を試すことに(transformer よりも速いため)
+- AtmaCup を参考にいくつか材料を揃えた(実装できるかは分からん)
+- Horizontal や Vertical, Brightness, ShiftScale, GaussianNoise Blur, toGray を検証
+- image_size でスコアの差異があるか確認(最後の最後までできるだけ統一する)
+
+##### base_model と exp1 の oof の分析
+
+- base の efficientNet には abs でのエラーで 114 が一件いた -> swin transformer では 81 位になっていた
+- exp1 では max が 81 で base では 73 位になってた -> CNN ベースと Attention ベースで得意不得意があるのか?
+- エラーが高い画像をみたら背景と結構色が似ているような??
+- fold1 と fold3 に特に noise が含まれている
+- 割と全体的に Pawpularity が大きい方にシフトしている(Pawpularity が min=1 に対して, pred は大体 min=10+-2 位) -> Pawpularity100 がまあまああるから？
+- efficientNet だと過小評価がかなり苦手くさい
+- 上位でさえ 17 ということを考えるとある程度の妥協は必要そう
+- Pawpularity=100 のときは efficientNet の方が error の min が小さい->ほぼぴったりで予測できている. ただエラーの平均は変わらない
+- 後処理またはスタッキングが重要になってきそう(恐らくサイトのアクセス数からだと思うのでかなりブレがあるため、モデル only で予測するのは限界がありそう)
+<!-- - exp2 の cv:21 とかなりデカくなってしまった -> 原因最初の fold が CV:31 で abs >= 80 が 40 件もあった
+- ほとんどが Pawpularity が 100 近いもの -->
+- exp4 の実験名変える忘れたので
+
+- exp2 image_size -> 224 CV:19.02 位 exp3 image_size -> 384 CV:18.7054 と image_size が大きい方がスコアが良い（表現できる量が多いから？）
+- exp4 image_size -> 512
+- exp5 image_size:384, remove to_gray, verticalFlip(to_gray->背景と同化してそう, vertical->誰も使用していないため)
