@@ -99,3 +99,22 @@ PetFinder.my は、マレーシアを代表する動物福祉プラットフォ�
 - exp2 image_size -> 224 CV:19.02 位 exp3 image_size -> 384 CV:18.7054 と image_size が大きい方がスコアが良い（表現できる量が多いから？）
 - exp4 image_size -> 512
 - exp5 image_size:384, remove to_gray, verticalFlip(to_gray->背景と同化してそう, vertical->誰も使用していないため)
+
+### ~20211116
+
+- とりあえず 18.2 台まできた
+- 5fold と 10fold だと 10fold の方がいい
+- image size は 512 >= 368 > 224(小さすぎると重要な箇所の特徴量が小さくなる？大きすぎるとノイズの部分が大きくなるのか？)
+  ー augmentation は ResizeCrop, Horizontal, RandomBrightness, ShiftScaleRotate, GaussianBlur が今の所最適解
+- init weight(xaiver)を使用するとかなり悪化
+- meta 情報は今の所全ての実験で悪化
+- crop data, remove duplicate data 等は CV はかなり向上, LB は悪化(TrustCV で行きたいがかなり乖離がある。)
+
+##### oof 分析
+
+- 100 以上外しているデータはなさそう。Pawpularity と preds の平均がほぼ一緒
+- 両極端の値がかなり外している
+- 大体 75max_abs_error は 75 位に落ち着いている
+- abs_error が大きい順で 20 個抽出
+- とりあえず abs_error が大きいデータを削除
+- また Pawpularity=100 も一旦削除して回す(高い値に引っ張られているのではないかという仮説) -> error の min と max 比較した時に min つまり Pawpularity を過大評価しているため
