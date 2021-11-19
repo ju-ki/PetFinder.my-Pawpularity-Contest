@@ -118,3 +118,13 @@ PetFinder.my は、マレーシアを代表する動物福祉プラットフォ�
 - abs_error が大きい順で 20 個抽出
 - とりあえず abs_error が大きいデータを削除
 - また Pawpularity=100 も一旦削除して回す(高い値に引っ張られているのではないかという仮説) -> error の min と max 比較した時に min つまり Pawpularity を過大評価しているため
+
+### ~20211119
+
+- GaussianBlur 削ったらスコア CV はかなりよくなった。
+- ただ CV と LB の相関が徐々に取れなくなってきた
+- cutout などの mask 系は多少チューニングすればいけそう
+- ぱっとみ PCA かなり効きそうなイメージがあったので追加したら悪化->その後サブしたらかなり乖離
+- simsiam の実装 load_state_dict の実装の際に missing value?的なエラーが出てきたが strict=False にすれば解決した
+- resnet18 で実装
+- swin_transformer の方 Dropout 実装するの忘れてた ->スコア向上はみられないと思うけど tf_efficient と同じにしたい
