@@ -128,3 +128,10 @@ PetFinder.my は、マレーシアを代表する動物福祉プラットフォ�
 - simsiam の実装 load_state_dict の実装の際に missing value?的なエラーが出てきたが strict=False にすれば解決した
 - resnet18 で実装
 - swin_transformer の方 Dropout 実装するの忘れてた ->スコア向上はみられないと思うけど tf_efficient と同じにしたい
+
+### 20211120
+
+- simsiam の実装の結果普通の resnet18 の方がよくなった。論文実装は resnet50 なので今度はそっちでやってみる
+- swin の dropout 忘れの実験は CV:018.81 とかまで悪化したが,LB は 18.21 まで上がった(しかし duplicate を忘れていたため多分もう少し上がるはず)
+- kaggle の GPU が余っていたので試しに swin_large を回した->CV:17.92 位までブーストできた
+- swin_large が CV と LB で乖離したため Dropout 少し増やした方がいいかも？
