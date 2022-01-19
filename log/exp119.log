@@ -1,0 +1,10 @@
+[2021-12-18 13:03:14] - ========== fold: 0 training ==========
+[2021-12-18 13:11:29] - Epoch 1 - avg_train_loss: 0.6632  avg_val_loss: 0.6452  time: 483s, lr: 0.00002
+[2021-12-18 13:11:29] - Epoch 1 - NN_Score: 18.3826   SVR_Score: 18.4189   Ensemble_Score: 18.2752
+[2021-12-18 13:11:29] - Epoch 1 - Save Best Score: 18.2752 Model
+[2021-12-18 13:18:46] - Epoch 2 - avg_train_loss: 0.6506  avg_val_loss: 0.6404  time: 436s, lr: 0.00002
+[2021-12-18 13:18:46] - Epoch 2 - NN_Score: 17.7656   SVR_Score: 17.7009   Ensemble_Score: 17.6564
+[2021-12-18 13:18:46] - Epoch 2 - Save Best Score: 17.6564 Model
+[2021-12-18 13:18:46] - Loss decreased 18.27521 -> 17.65644
+[2021-12-18 13:26:00] - Epoch 3 - avg_train_loss: 0.6453  avg_val_loss: 0.6397  time: 434s, lr: 0.00002
+[2021-12-18 13:26:00] - Epoch 3 - NN_Score: 17.6729   SVR_Score: 17.9513   Ensemble_Score: 17.6991

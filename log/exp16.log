@@ -1,0 +1,214 @@
+[2021-11-14 03:57:17] - ========== fold: 0 training ==========
+[2021-11-14 04:06:59] - Epoch 1 - avg_train_loss: 0.6537  avg_val_loss: 0.6472  time: 569s, lr: 0.00010
+[2021-11-14 04:06:59] - Epoch 1 - Score: 18.6229
+[2021-11-14 04:06:59] - Epoch 1 - Save Best Score: 18.6229 Model
+[2021-11-14 04:10:11] - Epoch 2 - avg_train_loss: 0.6423  avg_val_loss: 0.6433  time: 192s, lr: 0.00010
+[2021-11-14 04:10:11] - Epoch 2 - Score: 18.1311
+[2021-11-14 04:10:11] - Epoch 2 - Save Best Score: 18.1311 Model
+[2021-11-14 04:10:11] - Loss decreased 18.62292 -> 18.13115
+[2021-11-14 04:13:22] - Epoch 3 - avg_train_loss: 0.6364  avg_val_loss: 0.6437  time: 191s, lr: 0.00010
+[2021-11-14 04:13:22] - Epoch 3 - Score: 18.1968
+[2021-11-14 04:16:33] - Epoch 4 - avg_train_loss: 0.6293  avg_val_loss: 0.6488  time: 191s, lr: 0.00009
+[2021-11-14 04:16:33] - Epoch 4 - Score: 18.7725
+[2021-11-14 04:19:45] - Epoch 5 - avg_train_loss: 0.6221  avg_val_loss: 0.6474  time: 192s, lr: 0.00009
+[2021-11-14 04:19:45] - Epoch 5 - Score: 18.4592
+[2021-11-14 04:22:56] - Epoch 6 - avg_train_loss: 0.6147  avg_val_loss: 0.6557  time: 191s, lr: 0.00009
+[2021-11-14 04:22:56] - Epoch 6 - Score: 19.4125
+[2021-11-14 04:22:56] - Early stop!!
+[2021-11-14 04:22:56] - ========== fold: 0 result ==========
+[2021-11-14 04:22:56] - Score: 18.1311
+[2021-11-14 04:22:56] - ========== fold: 1 training ==========
+[2021-11-14 04:26:08] - Epoch 1 - avg_train_loss: 0.6532  avg_val_loss: 0.6492  time: 192s, lr: 0.00010
+[2021-11-14 04:26:08] - Epoch 1 - Score: 18.7340
+[2021-11-14 04:26:08] - Epoch 1 - Save Best Score: 18.7340 Model
+[2021-11-14 04:29:21] - Epoch 2 - avg_train_loss: 0.6416  avg_val_loss: 0.6480  time: 193s, lr: 0.00010
+[2021-11-14 04:29:21] - Epoch 2 - Score: 18.5917
+[2021-11-14 04:29:21] - Epoch 2 - Save Best Score: 18.5917 Model
+[2021-11-14 04:29:21] - Loss decreased 18.73397 -> 18.59175
+[2021-11-14 04:32:33] - Epoch 3 - avg_train_loss: 0.6356  avg_val_loss: 0.6481  time: 192s, lr: 0.00010
+[2021-11-14 04:32:33] - Epoch 3 - Score: 18.5720
+[2021-11-14 04:32:33] - Epoch 3 - Save Best Score: 18.5720 Model
+[2021-11-14 04:32:33] - Loss decreased 18.59175 -> 18.57204
+[2021-11-14 04:35:45] - Epoch 4 - avg_train_loss: 0.6285  avg_val_loss: 0.6497  time: 191s, lr: 0.00009
+[2021-11-14 04:35:45] - Epoch 4 - Score: 18.7620
+[2021-11-14 04:38:56] - Epoch 5 - avg_train_loss: 0.6226  avg_val_loss: 0.6511  time: 191s, lr: 0.00009
+[2021-11-14 04:38:56] - Epoch 5 - Score: 18.8903
+[2021-11-14 04:42:08] - Epoch 6 - avg_train_loss: 0.6161  avg_val_loss: 0.6612  time: 192s, lr: 0.00009
+[2021-11-14 04:42:08] - Epoch 6 - Score: 19.8016
+[2021-11-14 04:45:20] - Epoch 7 - avg_train_loss: 0.6086  avg_val_loss: 0.6586  time: 192s, lr: 0.00008
+[2021-11-14 04:45:20] - Epoch 7 - Score: 19.4949
+[2021-11-14 04:45:20] - Early stop!!
+[2021-11-14 04:45:20] - ========== fold: 1 result ==========
+[2021-11-14 04:45:20] - Score: 18.5720
+[2021-11-14 04:45:20] - ========== fold: 2 training ==========
+[2021-11-14 04:48:31] - Epoch 1 - avg_train_loss: 0.6526  avg_val_loss: 0.6492  time: 191s, lr: 0.00010
+[2021-11-14 04:48:31] - Epoch 1 - Score: 18.6835
+[2021-11-14 04:48:31] - Epoch 1 - Save Best Score: 18.6835 Model
+[2021-11-14 04:51:43] - Epoch 2 - avg_train_loss: 0.6418  avg_val_loss: 0.6465  time: 191s, lr: 0.00010
+[2021-11-14 04:51:43] - Epoch 2 - Score: 18.3311
+[2021-11-14 04:51:43] - Epoch 2 - Save Best Score: 18.3311 Model
+[2021-11-14 04:51:43] - Loss decreased 18.68354 -> 18.33113
+[2021-11-14 04:54:53] - Epoch 3 - avg_train_loss: 0.6357  avg_val_loss: 0.6463  time: 190s, lr: 0.00010
+[2021-11-14 04:54:53] - Epoch 3 - Score: 18.3022
+[2021-11-14 04:54:53] - Epoch 3 - Save Best Score: 18.3022 Model
+[2021-11-14 04:54:53] - Loss decreased 18.33113 -> 18.30219
+[2021-11-14 04:58:04] - Epoch 4 - avg_train_loss: 0.6284  avg_val_loss: 0.6494  time: 190s, lr: 0.00009
+[2021-11-14 04:58:04] - Epoch 4 - Score: 18.6512
+[2021-11-14 05:01:14] - Epoch 5 - avg_train_loss: 0.6226  avg_val_loss: 0.6489  time: 191s, lr: 0.00009
+[2021-11-14 05:01:14] - Epoch 5 - Score: 18.5761
+[2021-11-14 05:04:25] - Epoch 6 - avg_train_loss: 0.6151  avg_val_loss: 0.6567  time: 191s, lr: 0.00009
+[2021-11-14 05:04:25] - Epoch 6 - Score: 19.4521
+[2021-11-14 05:07:35] - Epoch 7 - avg_train_loss: 0.6089  avg_val_loss: 0.6583  time: 190s, lr: 0.00008
+[2021-11-14 05:07:35] - Epoch 7 - Score: 19.6135
+[2021-11-14 05:07:35] - Early stop!!
+[2021-11-14 05:07:35] - ========== fold: 2 result ==========
+[2021-11-14 05:07:35] - Score: 18.3022
+[2021-11-14 05:07:35] - ========== fold: 3 training ==========
+[2021-11-14 05:10:46] - Epoch 1 - avg_train_loss: 0.6534  avg_val_loss: 0.6482  time: 191s, lr: 0.00010
+[2021-11-14 05:10:46] - Epoch 1 - Score: 18.6241
+[2021-11-14 05:10:46] - Epoch 1 - Save Best Score: 18.6241 Model
+[2021-11-14 05:13:57] - Epoch 2 - avg_train_loss: 0.6420  avg_val_loss: 0.6455  time: 191s, lr: 0.00010
+[2021-11-14 05:13:57] - Epoch 2 - Score: 18.2639
+[2021-11-14 05:13:57] - Epoch 2 - Save Best Score: 18.2639 Model
+[2021-11-14 05:13:57] - Loss decreased 18.62405 -> 18.26388
+[2021-11-14 05:17:08] - Epoch 3 - avg_train_loss: 0.6357  avg_val_loss: 0.6479  time: 190s, lr: 0.00010
+[2021-11-14 05:17:08] - Epoch 3 - Score: 18.5218
+[2021-11-14 05:20:19] - Epoch 4 - avg_train_loss: 0.6294  avg_val_loss: 0.6497  time: 191s, lr: 0.00009
+[2021-11-14 05:20:19] - Epoch 4 - Score: 18.7067
+[2021-11-14 05:23:30] - Epoch 5 - avg_train_loss: 0.6223  avg_val_loss: 0.6521  time: 191s, lr: 0.00009
+[2021-11-14 05:23:30] - Epoch 5 - Score: 19.0712
+[2021-11-14 05:26:41] - Epoch 6 - avg_train_loss: 0.6147  avg_val_loss: 0.6620  time: 191s, lr: 0.00009
+[2021-11-14 05:26:41] - Epoch 6 - Score: 19.9283
+[2021-11-14 05:26:41] - Early stop!!
+[2021-11-14 05:26:41] - ========== fold: 3 result ==========
+[2021-11-14 05:26:41] - Score: 18.2639
+[2021-11-14 05:26:41] - ========== fold: 4 training ==========
+[2021-11-14 05:29:53] - Epoch 1 - avg_train_loss: 0.6532  avg_val_loss: 0.6487  time: 191s, lr: 0.00010
+[2021-11-14 05:29:53] - Epoch 1 - Score: 18.7115
+[2021-11-14 05:29:53] - Epoch 1 - Save Best Score: 18.7115 Model
+[2021-11-14 05:33:04] - Epoch 2 - avg_train_loss: 0.6423  avg_val_loss: 0.6470  time: 191s, lr: 0.00010
+[2021-11-14 05:33:04] - Epoch 2 - Score: 18.5069
+[2021-11-14 05:33:04] - Epoch 2 - Save Best Score: 18.5069 Model
+[2021-11-14 05:33:04] - Loss decreased 18.71152 -> 18.50685
+[2021-11-14 05:36:15] - Epoch 3 - avg_train_loss: 0.6360  avg_val_loss: 0.6454  time: 191s, lr: 0.00010
+[2021-11-14 05:36:15] - Epoch 3 - Score: 18.2896
+[2021-11-14 05:36:15] - Epoch 3 - Save Best Score: 18.2896 Model
+[2021-11-14 05:36:16] - Loss decreased 18.50685 -> 18.28963
+[2021-11-14 05:39:27] - Epoch 4 - avg_train_loss: 0.6289  avg_val_loss: 0.6494  time: 191s, lr: 0.00009
+[2021-11-14 05:39:27] - Epoch 4 - Score: 18.7611
+[2021-11-14 05:42:39] - Epoch 5 - avg_train_loss: 0.6224  avg_val_loss: 0.6493  time: 192s, lr: 0.00009
+[2021-11-14 05:42:39] - Epoch 5 - Score: 18.7214
+[2021-11-14 05:46:00] - Epoch 6 - avg_train_loss: 0.6155  avg_val_loss: 0.6530  time: 201s, lr: 0.00009
+[2021-11-14 05:46:00] - Epoch 6 - Score: 19.1537
+[2021-11-14 05:49:15] - Epoch 7 - avg_train_loss: 0.6082  avg_val_loss: 0.6545  time: 196s, lr: 0.00008
+[2021-11-14 05:49:15] - Epoch 7 - Score: 19.2972
+[2021-11-14 05:49:15] - Early stop!!
+[2021-11-14 05:49:15] - ========== fold: 4 result ==========
+[2021-11-14 05:49:15] - Score: 18.2896
+[2021-11-14 05:49:15] - ========== fold: 5 training ==========
+[2021-11-14 05:52:31] - Epoch 1 - avg_train_loss: 0.6530  avg_val_loss: 0.6458  time: 195s, lr: 0.00010
+[2021-11-14 05:52:31] - Epoch 1 - Score: 18.1749
+[2021-11-14 05:52:31] - Epoch 1 - Save Best Score: 18.1749 Model
+[2021-11-14 05:55:44] - Epoch 2 - avg_train_loss: 0.6428  avg_val_loss: 0.6424  time: 193s, lr: 0.00010
+[2021-11-14 05:55:44] - Epoch 2 - Score: 17.7277
+[2021-11-14 05:55:44] - Epoch 2 - Save Best Score: 17.7277 Model
+[2021-11-14 05:55:44] - Loss decreased 18.17489 -> 17.72772
+[2021-11-14 05:58:58] - Epoch 3 - avg_train_loss: 0.6363  avg_val_loss: 0.6442  time: 193s, lr: 0.00010
+[2021-11-14 05:58:58] - Epoch 3 - Score: 17.9783
+[2021-11-14 06:02:11] - Epoch 4 - avg_train_loss: 0.6297  avg_val_loss: 0.6409  time: 194s, lr: 0.00009
+[2021-11-14 06:02:11] - Epoch 4 - Score: 17.5361
+[2021-11-14 06:02:11] - Epoch 4 - Save Best Score: 17.5361 Model
+[2021-11-14 06:02:11] - Loss decreased 17.72772 -> 17.53610
+[2021-11-14 06:05:24] - Epoch 5 - avg_train_loss: 0.6220  avg_val_loss: 0.6446  time: 192s, lr: 0.00009
+[2021-11-14 06:05:24] - Epoch 5 - Score: 18.0441
+[2021-11-14 06:08:37] - Epoch 6 - avg_train_loss: 0.6152  avg_val_loss: 0.6452  time: 193s, lr: 0.00009
+[2021-11-14 06:08:37] - Epoch 6 - Score: 18.0229
+[2021-11-14 06:11:49] - Epoch 7 - avg_train_loss: 0.6090  avg_val_loss: 0.6549  time: 192s, lr: 0.00008
+[2021-11-14 06:11:49] - Epoch 7 - Score: 19.0945
+[2021-11-14 06:15:01] - Epoch 8 - avg_train_loss: 0.6038  avg_val_loss: 0.6536  time: 191s, lr: 0.00007
+[2021-11-14 06:15:01] - Epoch 8 - Score: 18.9505
+[2021-11-14 06:15:01] - Early stop!!
+[2021-11-14 06:15:01] - ========== fold: 5 result ==========
+[2021-11-14 06:15:01] - Score: 17.5361
+[2021-11-14 06:15:01] - ========== fold: 6 training ==========
+[2021-11-14 06:18:13] - Epoch 1 - avg_train_loss: 0.6538  avg_val_loss: 0.6504  time: 192s, lr: 0.00010
+[2021-11-14 06:18:13] - Epoch 1 - Score: 18.8732
+[2021-11-14 06:18:13] - Epoch 1 - Save Best Score: 18.8732 Model
+[2021-11-14 06:21:24] - Epoch 2 - avg_train_loss: 0.6419  avg_val_loss: 0.6471  time: 191s, lr: 0.00010
+[2021-11-14 06:21:24] - Epoch 2 - Score: 18.4392
+[2021-11-14 06:21:24] - Epoch 2 - Save Best Score: 18.4392 Model
+[2021-11-14 06:21:24] - Loss decreased 18.87318 -> 18.43917
+[2021-11-14 06:24:36] - Epoch 3 - avg_train_loss: 0.6357  avg_val_loss: 0.6465  time: 191s, lr: 0.00010
+[2021-11-14 06:24:36] - Epoch 3 - Score: 18.3569
+[2021-11-14 06:24:36] - Epoch 3 - Save Best Score: 18.3569 Model
+[2021-11-14 06:24:36] - Loss decreased 18.43917 -> 18.35689
+[2021-11-14 06:27:47] - Epoch 4 - avg_train_loss: 0.6288  avg_val_loss: 0.6494  time: 191s, lr: 0.00009
+[2021-11-14 06:27:47] - Epoch 4 - Score: 18.6598
+[2021-11-14 06:30:58] - Epoch 5 - avg_train_loss: 0.6226  avg_val_loss: 0.6569  time: 191s, lr: 0.00009
+[2021-11-14 06:30:58] - Epoch 5 - Score: 19.4167
+[2021-11-14 06:34:09] - Epoch 6 - avg_train_loss: 0.6158  avg_val_loss: 0.6550  time: 191s, lr: 0.00009
+[2021-11-14 06:34:09] - Epoch 6 - Score: 19.2077
+[2021-11-14 06:37:21] - Epoch 7 - avg_train_loss: 0.6081  avg_val_loss: 0.6533  time: 192s, lr: 0.00008
+[2021-11-14 06:37:21] - Epoch 7 - Score: 18.9629
+[2021-11-14 06:37:21] - Early stop!!
+[2021-11-14 06:37:21] - ========== fold: 6 result ==========
+[2021-11-14 06:37:21] - Score: 18.3569
+[2021-11-14 06:37:21] - ========== fold: 7 training ==========
+[2021-11-14 06:40:39] - Epoch 1 - avg_train_loss: 0.6535  avg_val_loss: 0.6444  time: 198s, lr: 0.00010
+[2021-11-14 06:40:39] - Epoch 1 - Score: 18.0949
+[2021-11-14 06:40:39] - Epoch 1 - Save Best Score: 18.0949 Model
+[2021-11-14 06:43:57] - Epoch 2 - avg_train_loss: 0.6422  avg_val_loss: 0.6441  time: 199s, lr: 0.00010
+[2021-11-14 06:43:57] - Epoch 2 - Score: 18.0569
+[2021-11-14 06:43:57] - Epoch 2 - Save Best Score: 18.0569 Model
+[2021-11-14 06:43:57] - Loss decreased 18.09486 -> 18.05686
+[2021-11-14 06:47:15] - Epoch 3 - avg_train_loss: 0.6358  avg_val_loss: 0.6445  time: 197s, lr: 0.00010
+[2021-11-14 06:47:15] - Epoch 3 - Score: 18.1263
+[2021-11-14 06:50:32] - Epoch 4 - avg_train_loss: 0.6288  avg_val_loss: 0.6457  time: 197s, lr: 0.00009
+[2021-11-14 06:50:32] - Epoch 4 - Score: 18.2412
+[2021-11-14 06:53:44] - Epoch 5 - avg_train_loss: 0.6225  avg_val_loss: 0.6466  time: 192s, lr: 0.00009
+[2021-11-14 06:53:44] - Epoch 5 - Score: 18.3739
+[2021-11-14 06:56:56] - Epoch 6 - avg_train_loss: 0.6154  avg_val_loss: 0.6479  time: 192s, lr: 0.00009
+[2021-11-14 06:56:56] - Epoch 6 - Score: 18.3899
+[2021-11-14 06:56:56] - Early stop!!
+[2021-11-14 06:56:56] - ========== fold: 7 result ==========
+[2021-11-14 06:56:56] - Score: 18.0569
+[2021-11-14 06:56:56] - ========== fold: 8 training ==========
+[2021-11-14 07:00:08] - Epoch 1 - avg_train_loss: 0.6544  avg_val_loss: 0.6468  time: 192s, lr: 0.00010
+[2021-11-14 07:00:08] - Epoch 1 - Score: 18.5235
+[2021-11-14 07:00:08] - Epoch 1 - Save Best Score: 18.5235 Model
+[2021-11-14 07:03:20] - Epoch 2 - avg_train_loss: 0.6422  avg_val_loss: 0.6468  time: 192s, lr: 0.00010
+[2021-11-14 07:03:20] - Epoch 2 - Score: 18.5381
+[2021-11-14 07:06:32] - Epoch 3 - avg_train_loss: 0.6356  avg_val_loss: 0.6473  time: 192s, lr: 0.00010
+[2021-11-14 07:06:32] - Epoch 3 - Score: 18.5380
+[2021-11-14 07:09:44] - Epoch 4 - avg_train_loss: 0.6302  avg_val_loss: 0.6485  time: 192s, lr: 0.00009
+[2021-11-14 07:09:44] - Epoch 4 - Score: 18.6701
+[2021-11-14 07:12:56] - Epoch 5 - avg_train_loss: 0.6223  avg_val_loss: 0.6539  time: 192s, lr: 0.00009
+[2021-11-14 07:12:56] - Epoch 5 - Score: 19.3777
+[2021-11-14 07:12:56] - Early stop!!
+[2021-11-14 07:12:56] - ========== fold: 8 result ==========
+[2021-11-14 07:12:56] - Score: 18.5235
+[2021-11-14 07:12:56] - ========== fold: 9 training ==========
+[2021-11-14 07:16:07] - Epoch 1 - avg_train_loss: 0.6544  avg_val_loss: 0.6486  time: 191s, lr: 0.00010
+[2021-11-14 07:16:07] - Epoch 1 - Score: 18.8039
+[2021-11-14 07:16:07] - Epoch 1 - Save Best Score: 18.8039 Model
+[2021-11-14 07:19:19] - Epoch 2 - avg_train_loss: 0.6420  avg_val_loss: 0.6458  time: 192s, lr: 0.00010
+[2021-11-14 07:19:19] - Epoch 2 - Score: 18.4513
+[2021-11-14 07:19:19] - Epoch 2 - Save Best Score: 18.4513 Model
+[2021-11-14 07:19:20] - Loss decreased 18.80388 -> 18.45125
+[2021-11-14 07:22:32] - Epoch 3 - avg_train_loss: 0.6357  avg_val_loss: 0.6460  time: 192s, lr: 0.00010
+[2021-11-14 07:22:32] - Epoch 3 - Score: 18.4493
+[2021-11-14 07:22:32] - Epoch 3 - Save Best Score: 18.4493 Model
+[2021-11-14 07:22:32] - Loss decreased 18.45125 -> 18.44929
+[2021-11-14 07:25:45] - Epoch 4 - avg_train_loss: 0.6304  avg_val_loss: 0.6464  time: 192s, lr: 0.00009
+[2021-11-14 07:25:45] - Epoch 4 - Score: 18.5113
+[2021-11-14 07:28:57] - Epoch 5 - avg_train_loss: 0.6228  avg_val_loss: 0.6517  time: 193s, lr: 0.00009
+[2021-11-14 07:28:57] - Epoch 5 - Score: 19.1019
+[2021-11-14 07:32:10] - Epoch 6 - avg_train_loss: 0.6160  avg_val_loss: 0.6549  time: 193s, lr: 0.00009
+[2021-11-14 07:32:10] - Epoch 6 - Score: 19.4351
+[2021-11-14 07:35:24] - Epoch 7 - avg_train_loss: 0.6103  avg_val_loss: 0.6618  time: 194s, lr: 0.00008
+[2021-11-14 07:35:24] - Epoch 7 - Score: 20.0570
+[2021-11-14 07:35:24] - Early stop!!
+[2021-11-14 07:35:24] - ========== fold: 9 result ==========
+[2021-11-14 07:35:24] - Score: 18.4493
+[2021-11-14 07:35:24] - ========== CV ==========
+[2021-11-14 07:35:24] - Score: 18.2504
